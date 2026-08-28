@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Que tipo de fã de UFC você é?</title>
+</head>
+
+<body>
+
+    <div class="faixa-superior"></div>
+
+    <main class="container">
+
+        <header class="cabecalho">
+            <div class="logo">MMA <span>QUIZ</span></div>
+
+            <div class="badge">
+                OCTAGON
+            </div>
+        </header>
+
+        <section class="hero">
+
+            <p class="categoria">
+                DESAFIO UFC
+            </p>
+
+            <h1>
+                QUE TIPO DE<br>
+                <span>FÃ DE UFC</span> VOCÊ É?
+            </h1>
+
+            <p class="descricao">
+                Responda às perguntas e descubra qual é o seu estilo
+                quando o assunto é MMA!
+            </p>
+
+        </section>
+
+        <div class="linha"></div>
+
+        <section class="quiz">
+
+            <div class="contador">
+                <span>PERGUNTA</span>
+
+                <strong id="numero-pergunta">
+                    1
+                </strong>
+
+                <span>/ 6</span>
+            </div>
+
+            <div class="caixa-perguntas"></div>
+
+            <div class="caixa-alternativas"></div>
+
+        </section>
+
+        <section class="caixa-resultado">
+
+            <p class="resultado-label">
+                SEU RESULTADO
+            </p>
+
+            <h2>
+                Seu estilo de fã é:
+            </h2>
+
+            <div class="texto-resultado"></div>
+
+            <button
+                class="botao-reiniciar"
+                onclick="reiniciarQuiz()">
+                ↻ FAZER O QUIZ NOVAMENTE
+            </button>
+
+        </section>
+
+        <footer>
+            🥊 UFC QUIZ • MOSTRE QUE VOCÊ ENTENDE DE LUTA
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
